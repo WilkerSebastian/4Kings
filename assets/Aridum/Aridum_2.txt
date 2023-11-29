@@ -1,0 +1,12 @@
+Meu senhor, nobres de Aridum Glacies pedem recursos para a manutenção das muralhas
+de Castellum. Eles alegam que tais regalias são necessárias para que o verme não ameace
+a integridade da capital. Os outros reinos condenam o desvio de recurso público alegando
+que riquezas não faltam aos nobres dessa região
+$
+7 -5 -5 -5 0
+$
+-10 5 5 5 0
+$
+Envie os recursos demandados
+$
+Ordene que a manutenção venha dos recurso próprios da capital

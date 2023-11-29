@@ -1,0 +1,12 @@
+As grandes mudanças térmicas que assolam a região de Aridum Glacies têm baixado a
+imunidade da plebe local. Imigrantes élficos têm mais propensão a contração de doenças
+endêmicas. No entanto, os nobres se recusam a enviar seus médicos para cuidar da
+população pobre
+$
+20 0 0 0 0
+$
+0 3 0 -7 0
+$
+Mande que os nobres cuidem da população
+$
+Envie alguns médicos reais numa expedição local

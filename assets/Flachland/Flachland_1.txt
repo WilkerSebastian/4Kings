@@ -1,0 +1,12 @@
+Meu amo, um grupo de alquimistas de Fliegender Fluss estudando na capital de Flachland
+têm utilizado cobaias humanas em seus experimentos. O conselho de intelectuais de
+Flachland no entanto considera o ato antiético e pede intervenção. As leis atuais do reino
+são omissas com tal situação.
+$
+0 0 0 -5 -25
+$
+0 0 -10 2 0
+$
+Escreva uma preliminar condenando tais experimentos
+$
+Envie uma carta ao conselho pedindo compreensão

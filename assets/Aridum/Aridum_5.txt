@@ -1,0 +1,12 @@
+Uma caravana de elfos foi pega transportando ervas alucinógenas ritualísticas para uma
+colônia élfica em Aridum Glacies. Nesse reino, o tráfico desse tipo de substância pode ser
+punido com morte. Autoridades de Inveractus pedem o perdão real e apontam que o
+consumo desses narcóticos é muito presente em sua cultura para rituais religiosos.
+$
+-15 30 0 0 0
+$
+15 -30 0 0 0
+$
+Faça valer a lei dos homens sobre os elfos
+$
+Conceda o perdão real por hora

@@ -1,0 +1,12 @@
+Sua alteza, comerciantes de Flachland pedem que os nobres de Fliegender Fluss façam
+mais caminhos entre os dois reinos para melhor trânsito das caravanas. Os nobres de
+Fliegender se opõem à ideia argumentando que destruir parte da floresta interviria em
+hábitos e rituais clássicos como a caça esportiva.
+$
+0 0 0 -10 0
+$
+-25 0 0 0 0
+$
+Ordene a derrubada das árvores e preparação do chão batido
+$
+Ignore o apelo dos comerciantes

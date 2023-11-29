@@ -6,7 +6,7 @@ import application.FourKings;
 
 public class Menus {
     
-    public static int view(String dialog) {
+    public static int view(String dialog , String op1, String op2) {
 
         int op;
 
@@ -26,7 +26,7 @@ public class Menus {
             
             System.out.print(
             "------------------------------\n" + 
-            "(1) SIM    (2) NÃO    (0) SAIR\n" +
+            "(1) " + op1 + "    \n(2) " + op2 + "    \n(0) SAIR\n" +
             "------------------------------\n" +
             "Opção: ");
 
@@ -40,7 +40,7 @@ public class Menus {
             
         } catch (Exception e) {
             
-            return view(dialog);
+            return view(dialog, op1, op2);
 
         }
 

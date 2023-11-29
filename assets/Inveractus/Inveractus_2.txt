@@ -1,0 +1,12 @@
+Vossa majestade, a grande procriação de ogros nas cadeias montanhosas de Inveractus 
+têm gerado problemas tanto para vilas locais quanto para vilas em Fliegendes, na região de 
+divisa. No entanto, os nobres de Fliegendes têm negado auxílio aos elfos para controle 
+populacional. Como proceder?
+$
+5 0 0 -10 0
+$
+-5 0 0 0 0
+$
+Mande que os nobres enviem seus exércitos para ajudar
+$
+Deixe que os elfos resolvam sozinhos

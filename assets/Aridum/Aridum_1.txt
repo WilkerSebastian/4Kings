@@ -1,0 +1,13 @@
+Vossa senhoria, comerciantes de Flachland têm escondido minérios extraídos nas colinas
+de Aridum Glacies para não passarem pelas duras taxações do reino. Eles alegam que tal
+imoralidade é necessária devido ao desamparo do qual são vítimas no deserto, já que
+Aridum não tem dado apoio militar e logístico às caravanas desde a morte de seu rei.
+Como intervir?
+$
+0 0 -5 0 0
+$
+0 -15 0 0 0
+$
+Puna os comerciantes
+$
+Ordene aos nobres que protejam e fiscalizem as caravanas

@@ -1,0 +1,11 @@
+Magnitude, corpos de jovens aldeões foram encontrados escalpelados em Fliegender
+Fluss. Os habitantes têm medo de denunciar as atitudes depravadas de seus senhores
+temendo serem rechaçados. Lideranças locais falam em revolta.
+$
+0 0 0 5 -25
+$
+0 0 0 -5 0
+$
+Puna os nobres
+$
+Censure a plebe

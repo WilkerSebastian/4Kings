@@ -1,0 +1,11 @@
+Majestade, nobres e principalmente comerciantes têm criticado o modo de vida voltado à
+subsistência predominante em Inveractus . As elites reclamam que tal modo não favorece o
+livre comércio e o desenvolvimento econômico do império.
+$
+5 0 0 0 0
+$
+-5 0 0 0 0
+$
+Promova mudanças nos hábitos da região
+$
+Ignore os apelos comerciais

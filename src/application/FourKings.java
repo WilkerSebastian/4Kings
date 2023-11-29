@@ -17,6 +17,7 @@ public class FourKings {
     public static King Aridum;
     public static King Flachland;
     public static King Fluss;
+    public static King Conspiracy;
 
     public static Scanner in;
 
@@ -30,6 +31,7 @@ public class FourKings {
         Aridum = new King("Aridum", 50);
         Flachland = new King("Flachland", 50);
         Fluss = new King("Fluss", 50);
+        Conspiracy = new King("Conspiracy", 50);
 
         in = new Scanner(System.in);
 
@@ -39,7 +41,7 @@ public class FourKings {
 
             do {
 
-                clear();
+                //clear();
 
                 op = Menus.intro();
 
@@ -72,29 +74,32 @@ public class FourKings {
 
         try {
 
-            String output;
+            String output, op1, op2;
 
-            Dialog dialog = null;
+            Dialog dialog = new Dialog();
 
-            if (weeks == 0)
+            if (weeks == 0) {
                 output = readFile("./assets/dialog/first.txt");
-            else {
-                dialog = new Dialog();
+                op1 = "sim";
+                op2 = "não";
+            } else {
                 output = dialog.output;
+                op1 = dialog.optionFirst;
+                op2 = dialog.optionSecond;
             }
             
-            int selection = Menus.view(output);
+            int selection = Menus.view(output, op1, op2);
 
             if (selection > 0) {
                 
-                if (weeks > 0)
+                if (weeks > 0) 
                     dialog.trigger(selection == 1);
 
                 weeks++;
 
-                gameLoop();
-
             }
+
+            gameLoop();
             
         } catch (Exception e) {
             e.printStackTrace();

@@ -1,0 +1,11 @@
+Majestade, um grupo de intelectuais filantropos têm cogitado a possibilidade de abertura de
+suas bibliotecas para a livre consulta local. Nobres de outras regiões considera perigosa a
+possibilidade de intelectualização das massas.
+$
+-5 -5 10 -5 0
+$
+0 0 -5 0 0
+$
+Abra as livrarias
+$
+Censure os intelectuais

@@ -1,0 +1,13 @@
+Alteza real, um cargueiro foi apreendido no rio magus asinus goth transportando ópio de
+Flachland para regiões interioranas de Fliegender, onde seu consumo configura crime.
+Alquimistas de Flachland pedem retorno da carga de grande valor monetário e nobres de
+Fliegender falam em apreensão, no entanto autoridades de Inveractus consideram que o rio
+foi profanado e apenas com a queima da carga suas energias entrarão em equilíbrio…
+$
+30 0 -30 -15 0
+$
+0 0 0 10 0
+$
+Queime a carga como forma de respeito à religião élfica
+$
+Apreenda/retorne a carga a depender do júri local

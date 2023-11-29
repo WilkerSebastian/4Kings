@@ -1,0 +1,11 @@
+Vossa alteza, camponeses relatam ter visto grandes monstros de vinhas nas regiões de
+pântano de Fliegender Fluss. No entanto, os nobres da região não demonstram interesse
+em perder suas preciosas tropas com a suposta ameaça. O que fazer?
+$
+0 0 0 -4 0
+$
+0 0 0 -6 0
+$
+Ordene aos nobres que intervenham
+$
+Oriente os aldeões a não entrar no territórios dos monstros

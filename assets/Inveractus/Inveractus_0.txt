@@ -1,0 +1,11 @@
+Meu senhor, relatos dizem que os elfos de Inveractus estão construindo uma nova aldeia 
+na fronteira com Flachland. Os nobres de Flachland dizem que não querem essa “raça 
+imunda” passando por suas terras, como devemos intervir?
+$
+-10 0 0 0 0
+$
+0 0 -7 0 0
+$
+Impeça a expansão élfica
+$
+Rechace os nobres de Flachland

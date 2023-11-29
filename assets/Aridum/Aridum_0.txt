@@ -1,0 +1,13 @@
+Sua majestade, o verme está atacando algumas vilas na região sudeste de Aridum Glacies,
+atrapalhando a exploração de minérios na colina em um momento que as caravanas
+comerciais estão se deslocando. No entanto, um grande fluxo migratório de elfos têm
+tomado conta dos arredores, se tentarmos desviar a atenção do verme esses cidadão serão
+atacados. O que fazer?
+$
+-5 20 0 0 0
+$
+0 -7 0 0 0
+$
+Desvie a atenção do verme para longe das colinas
+$
+Ordene que os comerciantes procurem outro caminho para as caravanas

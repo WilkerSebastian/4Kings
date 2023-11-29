@@ -2,107 +2,60 @@ package dialog;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Random;
 
 import application.FourKings;
-import kings.King;
 
 public class Dialog {
     
-    private Consequence fisrtConsequence;
+    public Consequence firstConsequence;
     private Consequence secondConsequence;
-    private boolean sensitiveToYes;
     public String output;
+    public String optionFirst;
+    public String optionSecond;
 
     public Dialog() throws IOException {
 
+        Random random = new Random();
+
         String king = getRandomKing();
 
-        int size_foldar = new File("./asset/" + king).listFiles().length;
+        int size_foldar = new File("./assets/" + king).listFiles().length;
 
-        int seed = (int)Math.random() * size_foldar;
+        int seed = random.nextInt(size_foldar) ;
 
-        String [] blob = FourKings.readFile("./asset/" + king + '/' + king + '_' + seed + ".txt").split("$");
+        String [] blob = FourKings.readFile("./assets/" + king + '/' + king + '_' + seed + ".txt").split("\\$");
 
         this.output = blob[0];
 
-        fisrtConsequence = new Consequence();
-        fisrtConsequence.positiveKing = getKingByName(blob[1]);
-        fisrtConsequence.positive = Integer.parseInt(blob[2]);
-        fisrtConsequence.negativeKing = getKingByName(blob[3]);
-        fisrtConsequence.negative = Integer.parseInt(blob[4]);
+        firstConsequence = new Consequence(blob[1]);
 
-        secondConsequence = new Consequence();
-        secondConsequence.positiveKing = getKingByName(blob[5]);
-        secondConsequence.positive = Integer.parseInt(blob[6]);
-        secondConsequence.negativeKing = getKingByName(blob[7]);
-        secondConsequence.negative = Integer.parseInt(blob[8]);
+        secondConsequence = new Consequence(blob[2]);
 
-        this.sensitiveToYes = Integer.parseInt(blob[9]) != 0;
+        optionFirst = blob[3].trim();
+
+        optionSecond = blob[4].trim();
 
     }
 
-    public void trigger(boolean yes) {
+    public void trigger(boolean first) {
         
-        if (yes) {
+        if (first) {
             
-            if (this.sensitiveToYes) {
-                
-                this.applyFirst();
-                return;
+           this.firstConsequence.aplly();
+           return;
 
-            }
+        } 
 
-            this.applySecond();
-            return;
-
-        } else if (!this.sensitiveToYes) {
-
-            this.applyFirst();
-            return;
-
-        }
-
-        this.applySecond();
-
-    }
-
-    private void applyFirst() {
-
-        this.fisrtConsequence.positiveKing.addReputatio(this.fisrtConsequence.positive);
-
-        this.fisrtConsequence.negativeKing.addReputatio(this.fisrtConsequence.negative);
-
-    }
-
-    private void applySecond() {
-
-        this.secondConsequence.positiveKing.addReputatio(this.secondConsequence.positive);
-
-        this.secondConsequence.negativeKing.addReputatio(this.secondConsequence.negative);
-
-    }
-
-    private King getKingByName(String name) {
-
-        switch (name) {
-            case "Inveractus":
-
-                return FourKings.Inveractus;
-            case "Aridum":
-
-                return FourKings.Aridum;
-            case "Flachland":
-
-                return FourKings.Flachland;
-        }
-
-        return FourKings.Fluss;
+        this.secondConsequence.aplly();
 
     }
 
     private String getRandomKing() {
 
-        int seed = (int)Math.random() * 4 + 1;
+        Random random = new Random();
+
+        int seed = random.nextInt(4);
 
         switch (seed) {
             case 1:

@@ -1,0 +1,12 @@
+Meu lorde, hoje de manhã comerciantes de Flachland vieram lhe pedir proteção. Com a
+morte do rei de Aridum Glacies, uma parte de seu exército fronteiriço composto por
+mercenários começou a atacar comerciantes transitando com mercadorias pelo deserto.
+Devemos ordenar aos nobres de Aridum que emprestem seus exércitos para escoltá-los?
+$
+0 -2 3 0 0
+$
+0 0 -4 0 0
+$
+Ordene a proteção dos comerciantes
+$
+Peça aos comerciantes que desvie o caminho para evitar os mercenários

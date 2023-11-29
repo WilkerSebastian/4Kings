@@ -12,19 +12,20 @@ public class King {
 
     public void addReputatio(int reputation) {
 
-        this.reputation += reputation;
+        if(this.reputation + reputation <= 0) {
 
-    }
-
-    public void removeReputatio(int reputation) {
-
-        if (this.reputation - reputation < 0) {
-            
             this.reputation = 0;
+            return;
+            
+        }
+        if(this.reputation + reputation >= 100) {
+            
+            this.reputation = 100;
+            return;
 
         }
 
-        this.reputation -= reputation;
+        this.reputation += reputation;
 
     }
 

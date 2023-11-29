@@ -1,0 +1,11 @@
+Meu senhor, está se aproximando a época de seus rituais para as divindades élficas. Um
+deles se baseia no sacrifício e preparação de pratos com gatos locais. Nobres de Flachland
+visitando a região consideram isso um absurdo e exigem intervenção.
+$
+-15 0 0 0 0
+$
+0 0 -5 0 0
+$
+Intervenha no ritual
+$
+Ignore o apelo dos nobres de Flachland
