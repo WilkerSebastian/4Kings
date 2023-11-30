@@ -1,5 +1,9 @@
 package kings;
 
+import java.io.IOException;
+
+import application.FourKings;
+
 public class King {
     
     private String name;
@@ -26,6 +30,15 @@ public class King {
         }
 
         this.reputation += reputation;
+
+    }
+
+    public String end() throws IOException {
+
+        if (this.name == "Conspiracy")
+            return FourKings.readFile("./assets/history/ends/real_end.txt");
+
+        return FourKings.readFile("./assets/history/ends/" + this.name + '_' + this.reputation + ".txt");
 
     }
 

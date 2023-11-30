@@ -4,9 +4,11 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 import dialog.Dialog;
+import kings.Finisher;
 import kings.King;
 import view.Hitstory;
 import view.Menus;
@@ -90,6 +92,9 @@ public class FourKings {
             
             int selection = Menus.view(output, op1, op2);
 
+            if (selection == 0)
+                return;
+
             if (selection > 0) {
                 
                 if (weeks > 0) 
@@ -97,6 +102,27 @@ public class FourKings {
 
                 weeks++;
 
+            }
+
+            if (weeks >= 50) {
+                
+                Conspiracy.addReputatio(100);
+
+            }
+
+            if (Finisher.toCheck()) {
+                
+                Finisher.showEnd();
+
+                weeks = 0;
+        
+                Inveractus = new King("Inveractus", 50);
+                Aridum = new King("Aridum", 50);
+                Flachland = new King("Flachland", 50);
+                Fluss = new King("Fluss", 50);
+                Conspiracy = new King("Conspiracy", 50);
+
+                return;
             }
 
             gameLoop();
@@ -126,7 +152,7 @@ public class FourKings {
 
     public static String readFile(String path) throws FileNotFoundException, IOException {
 
-        FileReader fileReader = new FileReader(path);
+        FileReader fileReader = new FileReader(path, StandardCharsets.UTF_8);
 
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 
