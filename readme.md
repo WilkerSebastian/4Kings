@@ -10,7 +10,7 @@
 
 2. Baixe o zip mais rencente na releases.
 
-<a href="https://github.com/WilkerSebastian/4kings/releases/download/v1.0.0/4kings.zip">https://github.com/WilkerSebastian/4kings/releases/download/v1.0.0/4kings.zip</a>
+<a href="https://github.com/WilkerSebastian/4Kings/releases/download/lan%C3%A7amento/4Kings.zip">https://github.com/WilkerSebastian/4Kings/releases/download/lan%C3%A7amento/4Kings.zip</a>
 
 4. Extraia a pasta do zip
 
